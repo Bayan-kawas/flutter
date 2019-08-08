@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 // the main function is the starting point for all our flutter apps
+
 void main() {
   runApp(
     MaterialApp(
@@ -20,14 +22,25 @@ void main() {
       ),
     ),
   );
-  /*runApp(
+
+}
+/*void main() {
+  runApp(
     MaterialApp(
-      home:Scaffold(
-        appBar:AppBar(
-          title:Text('new bano'),
-          centerTitle:true,
+      home: Scaffold(
+        backgroundColor: Colors.pinkAccent[900],
+        appBar: AppBar(
+          backgroundColor: Colors.pinkAccent,
+          title: Center(
+            child: Text('New App'),
+          ),
+        ),
+        body: Center(
+          child: Image(
+            image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZjVLtJDgMTOExfMHsTZuT4G5cAmaRT0N0vnoVbblrTTKkwSOb'),
+          ),
         ),
       ),
     ),
-  );*/
-}
+  );
+}*/
